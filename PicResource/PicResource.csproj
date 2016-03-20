@@ -1,0 +1,1094 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B63B4C14-46F6-4EFE-BA02-F503E4A3F365}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PicResource</RootNamespace>
+    <AssemblyName>PicResource</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class1.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\Bg\t1.JPG" />
+    <EmbeddedResource Include="images\Heros\1.JPG" />
+    <EmbeddedResource Include="images\Heros\2.JPG" />
+    <EmbeddedResource Include="images\Heros\3.JPG" />
+    <EmbeddedResource Include="images\Heros\4.JPG" />
+    <EmbeddedResource Include="images\Heros\5.JPG" />
+    <EmbeddedResource Include="images\Items\C1.JPG" />
+    <EmbeddedResource Include="images\Items\C10.JPG" />
+    <EmbeddedResource Include="images\Items\C11.JPG" />
+    <EmbeddedResource Include="images\Items\C12.JPG" />
+    <EmbeddedResource Include="images\Items\C13.JPG" />
+    <EmbeddedResource Include="images\Items\C14.JPG" />
+    <EmbeddedResource Include="images\Items\C15.JPG" />
+    <EmbeddedResource Include="images\Items\C16.JPG" />
+    <EmbeddedResource Include="images\Items\C17.JPG" />
+    <EmbeddedResource Include="images\Items\C18.JPG" />
+    <EmbeddedResource Include="images\Items\C19.JPG" />
+    <EmbeddedResource Include="images\Items\C2.JPG" />
+    <EmbeddedResource Include="images\Items\C20.JPG" />
+    <EmbeddedResource Include="images\Items\C21.JPG" />
+    <EmbeddedResource Include="images\Items\C22.JPG" />
+    <EmbeddedResource Include="images\Items\C23.JPG" />
+    <EmbeddedResource Include="images\Items\C24.JPG" />
+    <EmbeddedResource Include="images\Items\C25.JPG" />
+    <EmbeddedResource Include="images\Items\C26.JPG" />
+    <EmbeddedResource Include="images\Items\C27.JPG" />
+    <EmbeddedResource Include="images\Items\C28.JPG" />
+    <EmbeddedResource Include="images\Items\C29.JPG" />
+    <EmbeddedResource Include="images\Items\C3.JPG" />
+    <EmbeddedResource Include="images\Items\C30.JPG" />
+    <EmbeddedResource Include="images\Items\C31.JPG" />
+    <EmbeddedResource Include="images\Items\C32.JPG" />
+    <EmbeddedResource Include="images\Items\C33.JPG" />
+    <EmbeddedResource Include="images\Items\C34.JPG" />
+    <EmbeddedResource Include="images\Items\C35.JPG" />
+    <EmbeddedResource Include="images\Items\C36.JPG" />
+    <EmbeddedResource Include="images\Items\C37.JPG" />
+    <EmbeddedResource Include="images\Items\C38.JPG" />
+    <EmbeddedResource Include="images\Items\C39.JPG" />
+    <EmbeddedResource Include="images\Items\C4.JPG" />
+    <EmbeddedResource Include="images\Items\C40.JPG" />
+    <EmbeddedResource Include="images\Items\C41.JPG" />
+    <EmbeddedResource Include="images\Items\C42.JPG" />
+    <EmbeddedResource Include="images\Items\C43.JPG" />
+    <EmbeddedResource Include="images\Items\C44.JPG" />
+    <EmbeddedResource Include="images\Items\C45.JPG" />
+    <EmbeddedResource Include="images\Items\C46.JPG" />
+    <EmbeddedResource Include="images\Items\C47.JPG" />
+    <EmbeddedResource Include="images\Items\C48.JPG" />
+    <EmbeddedResource Include="images\Items\C49.JPG" />
+    <EmbeddedResource Include="images\Items\C5.JPG" />
+    <EmbeddedResource Include="images\Items\C50.JPG" />
+    <EmbeddedResource Include="images\Items\C51.JPG" />
+    <EmbeddedResource Include="images\Items\C52.JPG" />
+    <EmbeddedResource Include="images\Items\C53.JPG" />
+    <EmbeddedResource Include="images\Items\C54.JPG" />
+    <EmbeddedResource Include="images\Items\C55.JPG" />
+    <EmbeddedResource Include="images\Items\C56.JPG" />
+    <EmbeddedResource Include="images\Items\C57.JPG" />
+    <EmbeddedResource Include="images\Items\C58.JPG" />
+    <EmbeddedResource Include="images\Items\C6.JPG" />
+    <EmbeddedResource Include="images\Items\C7.JPG" />
+    <EmbeddedResource Include="images\Items\C8.JPG" />
+    <EmbeddedResource Include="images\Items\C9.JPG" />
+    <EmbeddedResource Include="images\Shop\1.JPG" />
+    <EmbeddedResource Include="images\Shop\2.JPG" />
+    <EmbeddedResource Include="images\Shop\3.JPG" />
+    <EmbeddedResource Include="images\Shop\4.JPG" />
+    <EmbeddedResource Include="images\Shop\5.JPG" />
+    <EmbeddedResource Include="images\Shop\6.JPG" />
+    <EmbeddedResource Include="images\Skill\s1.JPG" />
+    <EmbeddedResource Include="images\Skill\s10.JPG" />
+    <EmbeddedResource Include="images\Skill\s11.JPG" />
+    <EmbeddedResource Include="images\Skill\s12.JPG" />
+    <EmbeddedResource Include="images\Skill\s13.JPG" />
+    <EmbeddedResource Include="images\Skill\s14.JPG" />
+    <EmbeddedResource Include="images\Skill\s15.JPG" />
+    <EmbeddedResource Include="images\Skill\s16.JPG" />
+    <EmbeddedResource Include="images\Skill\s17.JPG" />
+    <EmbeddedResource Include="images\Skill\s18.JPG" />
+    <EmbeddedResource Include="images\Skill\s19.JPG" />
+    <EmbeddedResource Include="images\Skill\s2.JPG" />
+    <EmbeddedResource Include="images\Skill\s20.JPG" />
+    <EmbeddedResource Include="images\Skill\s3.JPG" />
+    <EmbeddedResource Include="images\Skill\s4.JPG" />
+    <EmbeddedResource Include="images\Skill\s5.JPG" />
+    <EmbeddedResource Include="images\Skill\s6.JPG" />
+    <EmbeddedResource Include="images\Skill\s7.JPG" />
+    <EmbeddedResource Include="images\Skill\s8.JPG" />
+    <EmbeddedResource Include="images\Skill\s9.JPG" />
+    <EmbeddedResource Include="images\SSkill\Attribute1.JPG" />
+    <EmbeddedResource Include="images\SSkill\Attribute2.JPG" />
+    <EmbeddedResource Include="images\SSkill\Attribute3.JPG" />
+    <EmbeddedResource Include="images\SSkill\Attribute4.JPG" />
+    <EmbeddedResource Include="images\SSkill\Attribute5.JPG" />
+    <EmbeddedResource Include="images\SSkill\Attribute6.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\Shop\7.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\Items\C59.JPG" />
+    <EmbeddedResource Include="images\Items\C60.JPG" />
+    <EmbeddedResource Include="images\Items\C61.JPG" />
+    <EmbeddedResource Include="images\Items\C62.JPG" />
+    <EmbeddedResource Include="images\Items\C63.JPG" />
+    <EmbeddedResource Include="images\Items\C64.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\Basic\map.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\Shop\10.JPG" />
+    <EmbeddedResource Include="images\Shop\11.JPG" />
+    <EmbeddedResource Include="images\Shop\12.JPG" />
+    <EmbeddedResource Include="images\Shop\8.JPG" />
+    <EmbeddedResource Include="images\Shop\9.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\Items\C100.JPG" />
+    <EmbeddedResource Include="images\Items\C101.JPG" />
+    <EmbeddedResource Include="images\Items\C102.JPG" />
+    <EmbeddedResource Include="images\Items\C103.JPG" />
+    <EmbeddedResource Include="images\Items\C104.JPG" />
+    <EmbeddedResource Include="images\Items\C105.JPG" />
+    <EmbeddedResource Include="images\Items\C106.JPG" />
+    <EmbeddedResource Include="images\Items\C65.JPG" />
+    <EmbeddedResource Include="images\Items\C66.JPG" />
+    <EmbeddedResource Include="images\Items\C67.JPG" />
+    <EmbeddedResource Include="images\Items\C68.JPG" />
+    <EmbeddedResource Include="images\Items\C69.JPG" />
+    <EmbeddedResource Include="images\Items\C70.JPG" />
+    <EmbeddedResource Include="images\Items\C71.JPG" />
+    <EmbeddedResource Include="images\Items\C72.JPG" />
+    <EmbeddedResource Include="images\Items\C73.JPG" />
+    <EmbeddedResource Include="images\Items\C74.JPG" />
+    <EmbeddedResource Include="images\Items\C75.JPG" />
+    <EmbeddedResource Include="images\Items\C76.JPG" />
+    <EmbeddedResource Include="images\Items\C77.JPG" />
+    <EmbeddedResource Include="images\Items\C78.JPG" />
+    <EmbeddedResource Include="images\Items\C79.JPG" />
+    <EmbeddedResource Include="images\Items\C80.JPG" />
+    <EmbeddedResource Include="images\Items\C81.JPG" />
+    <EmbeddedResource Include="images\Items\C82.JPG" />
+    <EmbeddedResource Include="images\Items\C83.JPG" />
+    <EmbeddedResource Include="images\Items\C84.JPG" />
+    <EmbeddedResource Include="images\Items\C85.JPG" />
+    <EmbeddedResource Include="images\Items\C86.JPG" />
+    <EmbeddedResource Include="images\Items\C87.JPG" />
+    <EmbeddedResource Include="images\Items\C88.JPG" />
+    <EmbeddedResource Include="images\Items\C89.JPG" />
+    <EmbeddedResource Include="images\Items\C90.JPG" />
+    <EmbeddedResource Include="images\Items\C91.JPG" />
+    <EmbeddedResource Include="images\Items\C92.JPG" />
+    <EmbeddedResource Include="images\Items\C93.JPG" />
+    <EmbeddedResource Include="images\Items\C94.JPG" />
+    <EmbeddedResource Include="images\Items\C95.JPG" />
+    <EmbeddedResource Include="images\Items\C96.JPG" />
+    <EmbeddedResource Include="images\Items\C97.JPG" />
+    <EmbeddedResource Include="images\Items\C98.JPG" />
+    <EmbeddedResource Include="images\Items\C99.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\Bg\t2.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\Basic\logo.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\Basic\high.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\Items\C107.JPG" />
+    <EmbeddedResource Include="images\Items\C108.JPG" />
+    <EmbeddedResource Include="images\Items\C109.JPG" />
+    <EmbeddedResource Include="images\Items\C110.JPG" />
+    <EmbeddedResource Include="images\Items\C111.JPG" />
+    <EmbeddedResource Include="images\Items\C112.JPG" />
+    <EmbeddedResource Include="images\Items\C113.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\Shop\13.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\Heros\10.JPG" />
+    <EmbeddedResource Include="images\Heros\11.JPG" />
+    <EmbeddedResource Include="images\Heros\12.JPG" />
+    <EmbeddedResource Include="images\Heros\13.JPG" />
+    <EmbeddedResource Include="images\Heros\14.JPG" />
+    <EmbeddedResource Include="images\Heros\15.JPG" />
+    <EmbeddedResource Include="images\Heros\16.JPG" />
+    <EmbeddedResource Include="images\Heros\17.JPG" />
+    <EmbeddedResource Include="images\Heros\18.JPG" />
+    <EmbeddedResource Include="images\Heros\6.JPG" />
+    <EmbeddedResource Include="images\Heros\7.JPG" />
+    <EmbeddedResource Include="images\Heros\8.JPG" />
+    <EmbeddedResource Include="images\Heros\9.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\Skill\s21.JPG" />
+    <EmbeddedResource Include="images\Skill\s22.JPG" />
+    <EmbeddedResource Include="images\Skill\s23.JPG" />
+    <EmbeddedResource Include="images\Skill\s24.JPG" />
+    <EmbeddedResource Include="images\Skill\s25.JPG" />
+    <EmbeddedResource Include="images\Skill\s26.JPG" />
+    <EmbeddedResource Include="images\Skill\s27.JPG" />
+    <EmbeddedResource Include="images\Skill\s28.JPG" />
+    <EmbeddedResource Include="images\Skill\s29.JPG" />
+    <EmbeddedResource Include="images\Skill\s30.JPG" />
+    <EmbeddedResource Include="images\Skill\s31.JPG" />
+    <EmbeddedResource Include="images\Skill\s32.JPG" />
+    <EmbeddedResource Include="images\Skill\s33.JPG" />
+    <EmbeddedResource Include="images\Skill\s34.JPG" />
+    <EmbeddedResource Include="images\Skill\s35.JPG" />
+    <EmbeddedResource Include="images\Skill\s36.JPG" />
+    <EmbeddedResource Include="images\Skill\s37.JPG" />
+    <EmbeddedResource Include="images\Skill\s38.JPG" />
+    <EmbeddedResource Include="images\Skill\s39.JPG" />
+    <EmbeddedResource Include="images\Skill\s40.JPG" />
+    <EmbeddedResource Include="images\Skill\s41.JPG" />
+    <EmbeddedResource Include="images\Skill\s42.JPG" />
+    <EmbeddedResource Include="images\Skill\s43.JPG" />
+    <EmbeddedResource Include="images\Skill\s44.JPG" />
+    <EmbeddedResource Include="images\Skill\s45.JPG" />
+    <EmbeddedResource Include="images\Skill\s46.JPG" />
+    <EmbeddedResource Include="images\Skill\s47.JPG" />
+    <EmbeddedResource Include="images\Skill\s48.JPG" />
+    <EmbeddedResource Include="images\Skill\s49.JPG" />
+    <EmbeddedResource Include="images\Skill\s50.JPG" />
+    <EmbeddedResource Include="images\Skill\s51.JPG" />
+    <EmbeddedResource Include="images\Skill\s52.JPG" />
+    <EmbeddedResource Include="images\Skill\s53.JPG" />
+    <EmbeddedResource Include="images\Skill\s54.JPG" />
+    <EmbeddedResource Include="images\Skill\s55.JPG" />
+    <EmbeddedResource Include="images\Skill\s56.JPG" />
+    <EmbeddedResource Include="images\Skill\s57.JPG" />
+    <EmbeddedResource Include="images\Skill\s58.JPG" />
+    <EmbeddedResource Include="images\Skill\s59.JPG" />
+    <EmbeddedResource Include="images\Skill\s60.JPG" />
+    <EmbeddedResource Include="images\Skill\s61.JPG" />
+    <EmbeddedResource Include="images\Skill\s62.JPG" />
+    <EmbeddedResource Include="images\Skill\s63.JPG" />
+    <EmbeddedResource Include="images\Skill\s64.JPG" />
+    <EmbeddedResource Include="images\Skill\s65.JPG" />
+    <EmbeddedResource Include="images\Skill\s66.JPG" />
+    <EmbeddedResource Include="images\Skill\s67.JPG" />
+    <EmbeddedResource Include="images\Skill\s68.JPG" />
+    <EmbeddedResource Include="images\Skill\s69.JPG" />
+    <EmbeddedResource Include="images\Skill\s70.JPG" />
+    <EmbeddedResource Include="images\Skill\s71.JPG" />
+    <EmbeddedResource Include="images\Skill\s72.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\Heros\19.JPG" />
+    <EmbeddedResource Include="images\Heros\20.JPG" />
+    <EmbeddedResource Include="images\Heros\21.JPG" />
+    <EmbeddedResource Include="images\Heros\22.JPG" />
+    <EmbeddedResource Include="images\Heros\23.JPG" />
+    <EmbeddedResource Include="images\Heros\24.JPG" />
+    <EmbeddedResource Include="images\Heros\25.JPG" />
+    <EmbeddedResource Include="images\Heros\26.JPG" />
+    <EmbeddedResource Include="images\Heros\27.JPG" />
+    <EmbeddedResource Include="images\Heros\28.JPG" />
+    <EmbeddedResource Include="images\Heros\29.JPG" />
+    <EmbeddedResource Include="images\Heros\30.JPG" />
+    <EmbeddedResource Include="images\Heros\31.JPG" />
+    <EmbeddedResource Include="images\Heros\32.JPG" />
+    <EmbeddedResource Include="images\Heros\33.JPG" />
+    <EmbeddedResource Include="images\Heros\34.JPG" />
+    <EmbeddedResource Include="images\Heros\35.JPG" />
+    <EmbeddedResource Include="images\Heros\36.JPG" />
+    <EmbeddedResource Include="images\Heros\37.JPG" />
+    <EmbeddedResource Include="images\Heros\38.JPG" />
+    <EmbeddedResource Include="images\Heros\39.JPG" />
+    <EmbeddedResource Include="images\Heros\40.JPG" />
+    <EmbeddedResource Include="images\Heros\41.JPG" />
+    <EmbeddedResource Include="images\Heros\42.JPG" />
+    <EmbeddedResource Include="images\Heros\43.JPG" />
+    <EmbeddedResource Include="images\Heros\44.JPG" />
+    <EmbeddedResource Include="images\Heros\45.JPG" />
+    <EmbeddedResource Include="images\Heros\46.JPG" />
+    <EmbeddedResource Include="images\Heros\47.JPG" />
+    <EmbeddedResource Include="images\Heros\48.JPG" />
+    <EmbeddedResource Include="images\Heros\49.JPG" />
+    <EmbeddedResource Include="images\Heros\50.JPG" />
+    <EmbeddedResource Include="images\Heros\51.JPG" />
+    <EmbeddedResource Include="images\Heros\52.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\Skill\s100.JPG" />
+    <EmbeddedResource Include="images\Skill\s101.JPG" />
+    <EmbeddedResource Include="images\Skill\s102.JPG" />
+    <EmbeddedResource Include="images\Skill\s103.JPG" />
+    <EmbeddedResource Include="images\Skill\s104.JPG" />
+    <EmbeddedResource Include="images\Skill\s73.JPG" />
+    <EmbeddedResource Include="images\Skill\s74.JPG" />
+    <EmbeddedResource Include="images\Skill\s75.JPG" />
+    <EmbeddedResource Include="images\Skill\s76.JPG" />
+    <EmbeddedResource Include="images\Skill\s77.JPG" />
+    <EmbeddedResource Include="images\Skill\s78.JPG" />
+    <EmbeddedResource Include="images\Skill\s79.JPG" />
+    <EmbeddedResource Include="images\Skill\s80.JPG" />
+    <EmbeddedResource Include="images\Skill\s81.JPG" />
+    <EmbeddedResource Include="images\Skill\s82.JPG" />
+    <EmbeddedResource Include="images\Skill\s83.JPG" />
+    <EmbeddedResource Include="images\Skill\s84.JPG" />
+    <EmbeddedResource Include="images\Skill\s85.JPG" />
+    <EmbeddedResource Include="images\Skill\s86.JPG" />
+    <EmbeddedResource Include="images\Skill\s87.JPG" />
+    <EmbeddedResource Include="images\Skill\s88.JPG" />
+    <EmbeddedResource Include="images\Skill\s89.JPG" />
+    <EmbeddedResource Include="images\Skill\s90.JPG" />
+    <EmbeddedResource Include="images\Skill\s91.JPG" />
+    <EmbeddedResource Include="images\Skill\s92.JPG" />
+    <EmbeddedResource Include="images\Skill\s93.JPG" />
+    <EmbeddedResource Include="images\Skill\s94.JPG" />
+    <EmbeddedResource Include="images\Skill\s95.JPG" />
+    <EmbeddedResource Include="images\Skill\s96.JPG" />
+    <EmbeddedResource Include="images\Skill\s97.JPG" />
+    <EmbeddedResource Include="images\Skill\s98.JPG" />
+    <EmbeddedResource Include="images\Skill\s99.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\Skill\s105.JPG" />
+    <EmbeddedResource Include="images\Skill\s106.JPG" />
+    <EmbeddedResource Include="images\Skill\s107.JPG" />
+    <EmbeddedResource Include="images\Skill\s108.JPG" />
+    <EmbeddedResource Include="images\Skill\s109.JPG" />
+    <EmbeddedResource Include="images\Skill\s110.JPG" />
+    <EmbeddedResource Include="images\Skill\s111.JPG" />
+    <EmbeddedResource Include="images\Skill\s112.JPG" />
+    <EmbeddedResource Include="images\Skill\s113.JPG" />
+    <EmbeddedResource Include="images\Skill\s114.JPG" />
+    <EmbeddedResource Include="images\Skill\s115.JPG" />
+    <EmbeddedResource Include="images\Skill\s116.JPG" />
+    <EmbeddedResource Include="images\Skill\s117.JPG" />
+    <EmbeddedResource Include="images\Skill\s118.JPG" />
+    <EmbeddedResource Include="images\Skill\s119.JPG" />
+    <EmbeddedResource Include="images\Skill\s120.JPG" />
+    <EmbeddedResource Include="images\Skill\s121.JPG" />
+    <EmbeddedResource Include="images\Skill\s122.JPG" />
+    <EmbeddedResource Include="images\Skill\s123.JPG" />
+    <EmbeddedResource Include="images\Skill\s124.JPG" />
+    <EmbeddedResource Include="images\Skill\s125.JPG" />
+    <EmbeddedResource Include="images\Skill\s126.JPG" />
+    <EmbeddedResource Include="images\Skill\s127.JPG" />
+    <EmbeddedResource Include="images\Skill\s128.JPG" />
+    <EmbeddedResource Include="images\Skill\s129.JPG" />
+    <EmbeddedResource Include="images\Skill\s130.JPG" />
+    <EmbeddedResource Include="images\Skill\s131.JPG" />
+    <EmbeddedResource Include="images\Skill\s132.JPG" />
+    <EmbeddedResource Include="images\Skill\s133.JPG" />
+    <EmbeddedResource Include="images\Skill\s134.JPG" />
+    <EmbeddedResource Include="images\Skill\s135.JPG" />
+    <EmbeddedResource Include="images\Skill\s136.JPG" />
+    <EmbeddedResource Include="images\Skill\s137.JPG" />
+    <EmbeddedResource Include="images\Skill\s138.JPG" />
+    <EmbeddedResource Include="images\Skill\s139.JPG" />
+    <EmbeddedResource Include="images\Skill\s140.JPG" />
+    <EmbeddedResource Include="images\Skill\s141.JPG" />
+    <EmbeddedResource Include="images\Skill\s142.JPG" />
+    <EmbeddedResource Include="images\Skill\s143.JPG" />
+    <EmbeddedResource Include="images\Skill\s144.JPG" />
+    <EmbeddedResource Include="images\Skill\s145.JPG" />
+    <EmbeddedResource Include="images\Skill\s146.JPG" />
+    <EmbeddedResource Include="images\Skill\s147.JPG" />
+    <EmbeddedResource Include="images\Skill\s148.JPG" />
+    <EmbeddedResource Include="images\Skill\s149.JPG" />
+    <EmbeddedResource Include="images\Skill\s150.JPG" />
+    <EmbeddedResource Include="images\Skill\s151.JPG" />
+    <EmbeddedResource Include="images\Skill\s152.JPG" />
+    <EmbeddedResource Include="images\Skill\s153.JPG" />
+    <EmbeddedResource Include="images\Skill\s154.JPG" />
+    <EmbeddedResource Include="images\Skill\s155.JPG" />
+    <EmbeddedResource Include="images\Skill\s156.JPG" />
+    <EmbeddedResource Include="images\Skill\s157.JPG" />
+    <EmbeddedResource Include="images\Skill\s158.JPG" />
+    <EmbeddedResource Include="images\Skill\s159.JPG" />
+    <EmbeddedResource Include="images\Skill\s160.JPG" />
+    <EmbeddedResource Include="images\Skill\s161.JPG" />
+    <EmbeddedResource Include="images\Skill\s162.JPG" />
+    <EmbeddedResource Include="images\Skill\s163.JPG" />
+    <EmbeddedResource Include="images\Skill\s164.JPG" />
+    <EmbeddedResource Include="images\Skill\s165.JPG" />
+    <EmbeddedResource Include="images\Skill\s166.JPG" />
+    <EmbeddedResource Include="images\Skill\s167.JPG" />
+    <EmbeddedResource Include="images\Skill\s168.JPG" />
+    <EmbeddedResource Include="images\Skill\s169.JPG" />
+    <EmbeddedResource Include="images\Skill\s170.JPG" />
+    <EmbeddedResource Include="images\Skill\s171.JPG" />
+    <EmbeddedResource Include="images\Skill\s172.JPG" />
+    <EmbeddedResource Include="images\Skill\s173.JPG" />
+    <EmbeddedResource Include="images\Skill\s174.JPG" />
+    <EmbeddedResource Include="images\Skill\s175.JPG" />
+    <EmbeddedResource Include="images\Skill\s176.JPG" />
+    <EmbeddedResource Include="images\Skill\s177.JPG" />
+    <EmbeddedResource Include="images\Skill\s178.JPG" />
+    <EmbeddedResource Include="images\Skill\s179.JPG" />
+    <EmbeddedResource Include="images\Skill\s180.JPG" />
+    <EmbeddedResource Include="images\Skill\s181.JPG" />
+    <EmbeddedResource Include="images\Skill\s182.JPG" />
+    <EmbeddedResource Include="images\Skill\s183.JPG" />
+    <EmbeddedResource Include="images\Skill\s184.JPG" />
+    <EmbeddedResource Include="images\Skill\s185.JPG" />
+    <EmbeddedResource Include="images\Skill\s186.JPG" />
+    <EmbeddedResource Include="images\Skill\s187.JPG" />
+    <EmbeddedResource Include="images\Skill\s188.JPG" />
+    <EmbeddedResource Include="images\Skill\s189.JPG" />
+    <EmbeddedResource Include="images\Skill\s190.JPG" />
+    <EmbeddedResource Include="images\Skill\s191.JPG" />
+    <EmbeddedResource Include="images\Skill\s192.JPG" />
+    <EmbeddedResource Include="images\Skill\s193.JPG" />
+    <EmbeddedResource Include="images\Skill\s194.JPG" />
+    <EmbeddedResource Include="images\Skill\s195.JPG" />
+    <EmbeddedResource Include="images\Skill\s196.JPG" />
+    <EmbeddedResource Include="images\Skill\s197.JPG" />
+    <EmbeddedResource Include="images\Skill\s198.JPG" />
+    <EmbeddedResource Include="images\Skill\s199.JPG" />
+    <EmbeddedResource Include="images\Skill\s200.JPG" />
+    <EmbeddedResource Include="images\Skill\s201.JPG" />
+    <EmbeddedResource Include="images\Skill\s202.JPG" />
+    <EmbeddedResource Include="images\Skill\s203.JPG" />
+    <EmbeddedResource Include="images\Skill\s204.JPG" />
+    <EmbeddedResource Include="images\Skill\s205.JPG" />
+    <EmbeddedResource Include="images\Skill\s206.JPG" />
+    <EmbeddedResource Include="images\Skill\s207.JPG" />
+    <EmbeddedResource Include="images\Skill\s208.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\Altar\1.JPG" />
+    <EmbeddedResource Include="images\Altar\2.JPG" />
+    <EmbeddedResource Include="images\Altar\3.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\Boss\1.JPG" />
+    <EmbeddedResource Include="images\Boss\2.JPG" />
+    <EmbeddedResource Include="images\Boss\3.JPG" />
+    <EmbeddedResource Include="images\Boss\4.JPG" />
+    <EmbeddedResource Include="images\Boss\5.JPG" />
+    <EmbeddedResource Include="images\Boss\6.JPG" />
+    <EmbeddedResource Include="images\Boss\7.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\SigBack\1.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\SigBack\2.JPG" />
+    <EmbeddedResource Include="images\SigBack\3.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\SigBack\4.JPG" />
+    <EmbeddedResource Include="images\SigBack\5.JPG" />
+    <EmbeddedResource Include="images\SigBack\6.JPG" />
+    <EmbeddedResource Include="images\SigBack\7.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\AttrRace\A1.JPG" />
+    <EmbeddedResource Include="images\AttrRace\A2.JPG" />
+    <EmbeddedResource Include="images\AttrRace\A3.JPG" />
+    <EmbeddedResource Include="images\AttrRace\A4.JPG" />
+    <EmbeddedResource Include="images\AttrRace\A5.JPG" />
+    <EmbeddedResource Include="images\AttrRace\A6.JPG" />
+    <EmbeddedResource Include="images\AttrRace\A7.JPG" />
+    <EmbeddedResource Include="images\AttrRace\A8.JPG" />
+    <EmbeddedResource Include="images\AttrRace\A9.JPG" />
+    <EmbeddedResource Include="images\AttrRace\R1.JPG" />
+    <EmbeddedResource Include="images\AttrRace\R2.JPG" />
+    <EmbeddedResource Include="images\AttrRace\R3.JPG" />
+    <EmbeddedResource Include="images\AttrRace\R4.JPG" />
+    <EmbeddedResource Include="images\AttrRace\R5.JPG" />
+    <EmbeddedResource Include="images\AttrRace\R6.JPG" />
+    <EmbeddedResource Include="images\AttrRace\R7.JPG" />
+    <EmbeddedResource Include="images\AttrRace\R8.JPG" />
+    <EmbeddedResource Include="images\AttrRace\R9.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\Pet\1.JPG" />
+    <EmbeddedResource Include="images\Pet\10.JPG" />
+    <EmbeddedResource Include="images\Pet\11.JPG" />
+    <EmbeddedResource Include="images\Pet\12.JPG" />
+    <EmbeddedResource Include="images\Pet\13.JPG" />
+    <EmbeddedResource Include="images\Pet\14.JPG" />
+    <EmbeddedResource Include="images\Pet\15.JPG" />
+    <EmbeddedResource Include="images\Pet\16.JPG" />
+    <EmbeddedResource Include="images\Pet\17.JPG" />
+    <EmbeddedResource Include="images\Pet\18.JPG" />
+    <EmbeddedResource Include="images\Pet\19.JPG" />
+    <EmbeddedResource Include="images\Pet\2.JPG" />
+    <EmbeddedResource Include="images\Pet\20.JPG" />
+    <EmbeddedResource Include="images\Pet\21.JPG" />
+    <EmbeddedResource Include="images\Pet\22.JPG" />
+    <EmbeddedResource Include="images\Pet\23.JPG" />
+    <EmbeddedResource Include="images\Pet\24.JPG" />
+    <EmbeddedResource Include="images\Pet\25.JPG" />
+    <EmbeddedResource Include="images\Pet\26.JPG" />
+    <EmbeddedResource Include="images\Pet\27.JPG" />
+    <EmbeddedResource Include="images\Pet\28.JPG" />
+    <EmbeddedResource Include="images\Pet\29.JPG" />
+    <EmbeddedResource Include="images\Pet\3.JPG" />
+    <EmbeddedResource Include="images\Pet\30.JPG" />
+    <EmbeddedResource Include="images\Pet\31.JPG" />
+    <EmbeddedResource Include="images\Pet\32.JPG" />
+    <EmbeddedResource Include="images\Pet\33.JPG" />
+    <EmbeddedResource Include="images\Pet\34.JPG" />
+    <EmbeddedResource Include="images\Pet\35.JPG" />
+    <EmbeddedResource Include="images\Pet\36.JPG" />
+    <EmbeddedResource Include="images\Pet\37.JPG" />
+    <EmbeddedResource Include="images\Pet\4.JPG" />
+    <EmbeddedResource Include="images\Pet\5.JPG" />
+    <EmbeddedResource Include="images\Pet\6.JPG" />
+    <EmbeddedResource Include="images\Pet\7.JPG" />
+    <EmbeddedResource Include="images\Pet\8.JPG" />
+    <EmbeddedResource Include="images\Pet\9.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\MSkill\19.JPG" />
+    <EmbeddedResource Include="images\MSkill\20.JPG" />
+    <EmbeddedResource Include="images\MSkill\21.JPG" />
+    <EmbeddedResource Include="images\MSkill\22.JPG" />
+    <EmbeddedResource Include="images\MSkill\23.JPG" />
+    <EmbeddedResource Include="images\MSkill\24.JPG" />
+    <EmbeddedResource Include="images\MSkill\25.JPG" />
+    <EmbeddedResource Include="images\MSkill\26.JPG" />
+    <EmbeddedResource Include="images\MSkill\27.JPG" />
+    <EmbeddedResource Include="images\MSkill\28.JPG" />
+    <EmbeddedResource Include="images\MSkill\29.JPG" />
+    <EmbeddedResource Include="images\MSkill\30.JPG" />
+    <EmbeddedResource Include="images\MSkill\31.JPG" />
+    <EmbeddedResource Include="images\MSkill\32.JPG" />
+    <EmbeddedResource Include="images\MSkill\33.JPG" />
+    <EmbeddedResource Include="images\MSkill\34.JPG" />
+    <EmbeddedResource Include="images\MSkill\35.JPG" />
+    <EmbeddedResource Include="images\MSkill\36.JPG" />
+    <EmbeddedResource Include="images\MSkill\37.JPG" />
+    <EmbeddedResource Include="images\MSkill\38.JPG" />
+    <EmbeddedResource Include="images\MSkill\39.JPG" />
+    <EmbeddedResource Include="images\MSkill\40.JPG" />
+    <EmbeddedResource Include="images\MSkill\41.JPG" />
+    <EmbeddedResource Include="images\MSkill\42.JPG" />
+    <EmbeddedResource Include="images\MSkill\43.JPG" />
+    <EmbeddedResource Include="images\MSkill\44.JPG" />
+    <EmbeddedResource Include="images\MSkill\45.JPG" />
+    <EmbeddedResource Include="images\MSkill\46.JPG" />
+    <EmbeddedResource Include="images\MSkill\47.JPG" />
+    <EmbeddedResource Include="images\MSkill\48.JPG" />
+    <EmbeddedResource Include="images\MSkill\49.JPG" />
+    <EmbeddedResource Include="images\MSkill\50.JPG" />
+    <EmbeddedResource Include="images\MSkill\51.JPG" />
+    <EmbeddedResource Include="images\MSkill\52.JPG" />
+    <EmbeddedResource Include="images\MSkill\53.JPG" />
+    <EmbeddedResource Include="images\MSkill\54.JPG" />
+    <EmbeddedResource Include="images\MSkill\55.JPG" />
+    <EmbeddedResource Include="images\MSkill\56.JPG" />
+    <EmbeddedResource Include="images\MSkill\57.JPG" />
+    <EmbeddedResource Include="images\MSkill\58.JPG" />
+    <EmbeddedResource Include="images\MSkill\59.JPG" />
+    <EmbeddedResource Include="images\MSkill\60.JPG" />
+    <EmbeddedResource Include="images\MSkill\61.JPG" />
+    <EmbeddedResource Include="images\MSkill\62.JPG" />
+    <EmbeddedResource Include="images\MSkill\63.JPG" />
+    <EmbeddedResource Include="images\MSkill\64.JPG" />
+    <EmbeddedResource Include="images\MSkill\65.JPG" />
+    <EmbeddedResource Include="images\MSkill\66.JPG" />
+    <EmbeddedResource Include="images\MSkill\67.JPG" />
+    <EmbeddedResource Include="images\MSkill\68.JPG" />
+    <EmbeddedResource Include="images\MSkill\69.JPG" />
+    <EmbeddedResource Include="images\MSkill\70.JPG" />
+    <EmbeddedResource Include="images\MSkill\71.JPG" />
+    <EmbeddedResource Include="images\MSkill\72.JPG" />
+    <EmbeddedResource Include="images\MSkill\73.JPG" />
+    <EmbeddedResource Include="images\MSkill\74.JPG" />
+    <EmbeddedResource Include="images\MSkill\75.JPG" />
+    <EmbeddedResource Include="images\MSkill\76.JPG" />
+    <EmbeddedResource Include="images\MSkill\77.JPG" />
+    <EmbeddedResource Include="images\MSkill\78.JPG" />
+    <EmbeddedResource Include="images\MSkill\79.JPG" />
+    <EmbeddedResource Include="images\MSkill\80.JPG" />
+    <EmbeddedResource Include="images\MSkill\81.JPG" />
+    <EmbeddedResource Include="images\MSkill\82.JPG" />
+    <EmbeddedResource Include="images\MSkill\83.JPG" />
+    <EmbeddedResource Include="images\MSkill\84.JPG" />
+    <EmbeddedResource Include="images\MSkill\85.JPG" />
+    <EmbeddedResource Include="images\MSkill\86.JPG" />
+    <EmbeddedResource Include="images\MSkill\87.JPG" />
+    <EmbeddedResource Include="images\MSkill\88.JPG" />
+    <EmbeddedResource Include="images\MSkill\89.JPG" />
+    <EmbeddedResource Include="images\MSkill\90.JPG" />
+    <EmbeddedResource Include="images\MSkill\91.JPG" />
+    <EmbeddedResource Include="images\MSkill\92.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\Items\C115.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\Items\C116.JPG" />
+    <EmbeddedResource Include="images\Items\C117.JPG" />
+    <EmbeddedResource Include="images\Items\C118.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\Heros\53.JPG" />
+    <EmbeddedResource Include="images\Heros\54.JPG" />
+    <EmbeddedResource Include="images\Heros\55.JPG" />
+    <EmbeddedResource Include="images\Heros\56.JPG" />
+    <EmbeddedResource Include="images\Heros\57.JPG" />
+    <EmbeddedResource Include="images\Heros\58.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\Skill\s209.JPG" />
+    <EmbeddedResource Include="images\Skill\s210.JPG" />
+    <EmbeddedResource Include="images\Skill\s211.JPG" />
+    <EmbeddedResource Include="images\Skill\s212.JPG" />
+    <EmbeddedResource Include="images\Skill\s213.JPG" />
+    <EmbeddedResource Include="images\Skill\s214.JPG" />
+    <EmbeddedResource Include="images\Skill\s215.JPG" />
+    <EmbeddedResource Include="images\Skill\s216.JPG" />
+    <EmbeddedResource Include="images\Skill\s217.JPG" />
+    <EmbeddedResource Include="images\Skill\s218.JPG" />
+    <EmbeddedResource Include="images\Skill\s219.JPG" />
+    <EmbeddedResource Include="images\Skill\s220.JPG" />
+    <EmbeddedResource Include="images\Skill\s221.JPG" />
+    <EmbeddedResource Include="images\Skill\s222.JPG" />
+    <EmbeddedResource Include="images\Skill\s223.JPG" />
+    <EmbeddedResource Include="images\Skill\s224.JPG" />
+    <EmbeddedResource Include="images\Skill\s225.JPG" />
+    <EmbeddedResource Include="images\Skill\s226.JPG" />
+    <EmbeddedResource Include="images\Skill\s227.JPG" />
+    <EmbeddedResource Include="images\Skill\s228.JPG" />
+    <EmbeddedResource Include="images\Skill\s229.JPG" />
+    <EmbeddedResource Include="images\Skill\s230.JPG" />
+    <EmbeddedResource Include="images\Skill\s231.JPG" />
+    <EmbeddedResource Include="images\Skill\s232.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\Pet\38.JPG" />
+    <EmbeddedResource Include="images\Pet\39.JPG" />
+    <EmbeddedResource Include="images\Pet\40.JPG" />
+    <EmbeddedResource Include="images\Pet\41.JPG" />
+    <EmbeddedResource Include="images\Pet\42.JPG" />
+    <EmbeddedResource Include="images\Pet\43.JPG" />
+    <EmbeddedResource Include="images\Pet\44.JPG" />
+    <EmbeddedResource Include="images\Pet\45.JPG" />
+    <EmbeddedResource Include="images\Pet\46.JPG" />
+    <EmbeddedResource Include="images\Pet\47.JPG" />
+    <EmbeddedResource Include="images\Pet\48.JPG" />
+    <EmbeddedResource Include="images\Pet\49.JPG" />
+    <EmbeddedResource Include="images\Pet\50.JPG" />
+    <EmbeddedResource Include="images\Pet\51.JPG" />
+    <EmbeddedResource Include="images\Pet\52.JPG" />
+    <EmbeddedResource Include="images\Pet\53.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\MSkill\100.JPG" />
+    <EmbeddedResource Include="images\MSkill\101.JPG" />
+    <EmbeddedResource Include="images\MSkill\102.JPG" />
+    <EmbeddedResource Include="images\MSkill\103.JPG" />
+    <EmbeddedResource Include="images\MSkill\104.JPG" />
+    <EmbeddedResource Include="images\MSkill\105.JPG" />
+    <EmbeddedResource Include="images\MSkill\106.JPG" />
+    <EmbeddedResource Include="images\MSkill\107.JPG" />
+    <EmbeddedResource Include="images\MSkill\108.JPG" />
+    <EmbeddedResource Include="images\MSkill\109.JPG" />
+    <EmbeddedResource Include="images\MSkill\110.JPG" />
+    <EmbeddedResource Include="images\MSkill\111.JPG" />
+    <EmbeddedResource Include="images\MSkill\112.JPG" />
+    <EmbeddedResource Include="images\MSkill\113.JPG" />
+    <EmbeddedResource Include="images\MSkill\114.JPG" />
+    <EmbeddedResource Include="images\MSkill\115.JPG" />
+    <EmbeddedResource Include="images\MSkill\116.JPG" />
+    <EmbeddedResource Include="images\MSkill\117.JPG" />
+    <EmbeddedResource Include="images\MSkill\118.JPG" />
+    <EmbeddedResource Include="images\MSkill\119.JPG" />
+    <EmbeddedResource Include="images\MSkill\120.JPG" />
+    <EmbeddedResource Include="images\MSkill\121.JPG" />
+    <EmbeddedResource Include="images\MSkill\122.JPG" />
+    <EmbeddedResource Include="images\MSkill\123.JPG" />
+    <EmbeddedResource Include="images\MSkill\124.JPG" />
+    <EmbeddedResource Include="images\MSkill\93.JPG" />
+    <EmbeddedResource Include="images\MSkill\94.JPG" />
+    <EmbeddedResource Include="images\MSkill\95.JPG" />
+    <EmbeddedResource Include="images\MSkill\96.JPG" />
+    <EmbeddedResource Include="images\MSkill\97.JPG" />
+    <EmbeddedResource Include="images\MSkill\98.JPG" />
+    <EmbeddedResource Include="images\MSkill\99.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\AttrRace\A10.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\HItems\I1.JPG" />
+    <EmbeddedResource Include="images\HItems\I10.JPG" />
+    <EmbeddedResource Include="images\HItems\I11.JPG" />
+    <EmbeddedResource Include="images\HItems\I12.JPG" />
+    <EmbeddedResource Include="images\HItems\I13.JPG" />
+    <EmbeddedResource Include="images\HItems\I14.JPG" />
+    <EmbeddedResource Include="images\HItems\I15.JPG" />
+    <EmbeddedResource Include="images\HItems\I16.JPG" />
+    <EmbeddedResource Include="images\HItems\I17.JPG" />
+    <EmbeddedResource Include="images\HItems\I18.JPG" />
+    <EmbeddedResource Include="images\HItems\I19.JPG" />
+    <EmbeddedResource Include="images\HItems\I2.JPG" />
+    <EmbeddedResource Include="images\HItems\I20.JPG" />
+    <EmbeddedResource Include="images\HItems\I21.JPG" />
+    <EmbeddedResource Include="images\HItems\I22.JPG" />
+    <EmbeddedResource Include="images\HItems\I23.JPG" />
+    <EmbeddedResource Include="images\HItems\I24.JPG" />
+    <EmbeddedResource Include="images\HItems\I25.JPG" />
+    <EmbeddedResource Include="images\HItems\I26.JPG" />
+    <EmbeddedResource Include="images\HItems\I27.JPG" />
+    <EmbeddedResource Include="images\HItems\I28.JPG" />
+    <EmbeddedResource Include="images\HItems\I29.JPG" />
+    <EmbeddedResource Include="images\HItems\I3.JPG" />
+    <EmbeddedResource Include="images\HItems\I4.JPG" />
+    <EmbeddedResource Include="images\HItems\I5.JPG" />
+    <EmbeddedResource Include="images\HItems\I6.JPG" />
+    <EmbeddedResource Include="images\HItems\I7.JPG" />
+    <EmbeddedResource Include="images\HItems\I8.JPG" />
+    <EmbeddedResource Include="images\HItems\I9.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\Heros\59.JPG" />
+    <EmbeddedResource Include="images\Heros\60.JPG" />
+    <EmbeddedResource Include="images\Heros\61.JPG" />
+    <EmbeddedResource Include="images\Heros\62.JPG" />
+    <EmbeddedResource Include="images\Heros\63.JPG" />
+    <EmbeddedResource Include="images\Heros\64.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\Skill\s233.JPG" />
+    <EmbeddedResource Include="images\Skill\s234.JPG" />
+    <EmbeddedResource Include="images\Skill\s235.JPG" />
+    <EmbeddedResource Include="images\Skill\s236.JPG" />
+    <EmbeddedResource Include="images\Skill\s237.JPG" />
+    <EmbeddedResource Include="images\Skill\s238.JPG" />
+    <EmbeddedResource Include="images\Skill\s239.JPG" />
+    <EmbeddedResource Include="images\Skill\s240.JPG" />
+    <EmbeddedResource Include="images\Skill\s241.JPG" />
+    <EmbeddedResource Include="images\Skill\s242.JPG" />
+    <EmbeddedResource Include="images\Skill\s243.JPG" />
+    <EmbeddedResource Include="images\Skill\s244.JPG" />
+    <EmbeddedResource Include="images\Skill\s245.JPG" />
+    <EmbeddedResource Include="images\Skill\s246.JPG" />
+    <EmbeddedResource Include="images\Skill\s247.JPG" />
+    <EmbeddedResource Include="images\Skill\s248.JPG" />
+    <EmbeddedResource Include="images\Skill\s249.JPG" />
+    <EmbeddedResource Include="images\Skill\s250.JPG" />
+    <EmbeddedResource Include="images\Skill\s251.JPG" />
+    <EmbeddedResource Include="images\Skill\s252.JPG" />
+    <EmbeddedResource Include="images\Skill\s253.JPG" />
+    <EmbeddedResource Include="images\Skill\s254.JPG" />
+    <EmbeddedResource Include="images\Skill\s255.JPG" />
+    <EmbeddedResource Include="images\Skill\s256.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\SigBack\8.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\SigBack\9.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\SigBack\10.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\SigBack\11.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\Pet\54.JPG" />
+    <EmbeddedResource Include="images\Pet\55.JPG" />
+    <EmbeddedResource Include="images\Pet\56.JPG" />
+    <EmbeddedResource Include="images\Pet\57.JPG" />
+    <EmbeddedResource Include="images\Pet\58.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\MSkill\125.JPG" />
+    <EmbeddedResource Include="images\MSkill\126.JPG" />
+    <EmbeddedResource Include="images\MSkill\127.JPG" />
+    <EmbeddedResource Include="images\MSkill\128.JPG" />
+    <EmbeddedResource Include="images\MSkill\129.JPG" />
+    <EmbeddedResource Include="images\MSkill\130.JPG" />
+    <EmbeddedResource Include="images\MSkill\131.JPG" />
+    <EmbeddedResource Include="images\MSkill\132.JPG" />
+    <EmbeddedResource Include="images\MSkill\133.JPG" />
+    <EmbeddedResource Include="images\MSkill\134.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\TSkill\1.JPG" />
+    <EmbeddedResource Include="images\TSkill\10.JPG" />
+    <EmbeddedResource Include="images\TSkill\11.JPG" />
+    <EmbeddedResource Include="images\TSkill\12.JPG" />
+    <EmbeddedResource Include="images\TSkill\13.JPG" />
+    <EmbeddedResource Include="images\TSkill\14.JPG" />
+    <EmbeddedResource Include="images\TSkill\15.JPG" />
+    <EmbeddedResource Include="images\TSkill\16.JPG" />
+    <EmbeddedResource Include="images\TSkill\17.JPG" />
+    <EmbeddedResource Include="images\TSkill\18.JPG" />
+    <EmbeddedResource Include="images\TSkill\19.JPG" />
+    <EmbeddedResource Include="images\TSkill\2.JPG" />
+    <EmbeddedResource Include="images\TSkill\20.JPG" />
+    <EmbeddedResource Include="images\TSkill\21.JPG" />
+    <EmbeddedResource Include="images\TSkill\22.JPG" />
+    <EmbeddedResource Include="images\TSkill\23.JPG" />
+    <EmbeddedResource Include="images\TSkill\24.JPG" />
+    <EmbeddedResource Include="images\TSkill\25.JPG" />
+    <EmbeddedResource Include="images\TSkill\27.JPG" />
+    <EmbeddedResource Include="images\TSkill\28.JPG" />
+    <EmbeddedResource Include="images\TSkill\29.JPG" />
+    <EmbeddedResource Include="images\TSkill\3.JPG" />
+    <EmbeddedResource Include="images\TSkill\4.JPG" />
+    <EmbeddedResource Include="images\TSkill\5.JPG" />
+    <EmbeddedResource Include="images\TSkill\6.JPG" />
+    <EmbeddedResource Include="images\TSkill\7.JPG" />
+    <EmbeddedResource Include="images\TSkill\8.JPG" />
+    <EmbeddedResource Include="images\TSkill\9.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\TSkill\26.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\Basic\talent.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\Basic\stone.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\Items\C122.JPG" />
+    <EmbeddedResource Include="images\Items\C123.JPG" />
+    <EmbeddedResource Include="images\Items\C124.JPG" />
+    <EmbeddedResource Include="images\Items\C125.JPG" />
+    <EmbeddedResource Include="images\Items\C126.JPG" />
+    <EmbeddedResource Include="images\Items\C127.JPG" />
+    <EmbeddedResource Include="images\Items\C128.JPG" />
+    <EmbeddedResource Include="images\Items\C129.JPG" />
+    <EmbeddedResource Include="images\Items\C130.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\Shop\14.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\Items\C131.JPG" />
+    <EmbeddedResource Include="images\Items\C132.JPG" />
+    <EmbeddedResource Include="images\Items\C133.JPG" />
+    <EmbeddedResource Include="images\Items\C134.JPG" />
+    <EmbeddedResource Include="images\Items\C135.JPG" />
+    <EmbeddedResource Include="images\Items\C136.JPG" />
+    <EmbeddedResource Include="images\Items\C137.JPG" />
+    <EmbeddedResource Include="images\Items\C138.JPG" />
+    <EmbeddedResource Include="images\Items\C139.JPG" />
+    <EmbeddedResource Include="images\Items\C140.JPG" />
+    <EmbeddedResource Include="images\Items\C141.JPG" />
+    <EmbeddedResource Include="images\Items\C142.JPG" />
+    <EmbeddedResource Include="images\Items\C143.JPG" />
+    <EmbeddedResource Include="images\Items\C144.JPG" />
+    <EmbeddedResource Include="images\Items\C145.JPG" />
+    <EmbeddedResource Include="images\Items\C146.JPG" />
+    <EmbeddedResource Include="images\Items\C147.JPG" />
+    <EmbeddedResource Include="images\Items\C148.JPG" />
+    <EmbeddedResource Include="images\Items\C149.JPG" />
+    <EmbeddedResource Include="images\Items\C150.JPG" />
+    <EmbeddedResource Include="images\Items\C151.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\Shop\15.JPG" />
+    <EmbeddedResource Include="images\Shop\16.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\Boss\8.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\TSkill\30.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\Skill\s257.JPG" />
+    <EmbeddedResource Include="images\Skill\s258.JPG" />
+    <EmbeddedResource Include="images\Skill\s259.JPG" />
+    <EmbeddedResource Include="images\Skill\s260.JPG" />
+    <EmbeddedResource Include="images\Skill\s261.JPG" />
+    <EmbeddedResource Include="images\Skill\s262.JPG" />
+    <EmbeddedResource Include="images\Skill\s263.JPG" />
+    <EmbeddedResource Include="images\Skill\s264.JPG" />
+    <EmbeddedResource Include="images\Skill\s265.JPG" />
+    <EmbeddedResource Include="images\Skill\s266.JPG" />
+    <EmbeddedResource Include="images\Skill\s267.JPG" />
+    <EmbeddedResource Include="images\Skill\s268.JPG" />
+    <EmbeddedResource Include="images\Skill\s269.JPG" />
+    <EmbeddedResource Include="images\Skill\s270.JPG" />
+    <EmbeddedResource Include="images\Skill\s271.JPG" />
+    <EmbeddedResource Include="images\Skill\s272.JPG" />
+    <EmbeddedResource Include="images\Skill\s273.JPG" />
+    <EmbeddedResource Include="images\Skill\s274.JPG" />
+    <EmbeddedResource Include="images\Skill\s275.JPG" />
+    <EmbeddedResource Include="images\Skill\s276.JPG" />
+    <EmbeddedResource Include="images\Skill\s277.JPG" />
+    <EmbeddedResource Include="images\Skill\s278.JPG" />
+    <EmbeddedResource Include="images\Skill\s279.JPG" />
+    <EmbeddedResource Include="images\Skill\s280.JPG" />
+    <EmbeddedResource Include="images\Skill\s281.JPG" />
+    <EmbeddedResource Include="images\Skill\s282.JPG" />
+    <EmbeddedResource Include="images\Skill\s283.JPG" />
+    <EmbeddedResource Include="images\Skill\s284.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\Heros\65.JPG" />
+    <EmbeddedResource Include="images\Heros\66.JPG" />
+    <EmbeddedResource Include="images\Heros\67.JPG" />
+    <EmbeddedResource Include="images\Heros\68.JPG" />
+    <EmbeddedResource Include="images\Heros\69.JPG" />
+    <EmbeddedResource Include="images\Heros\70.JPG" />
+    <EmbeddedResource Include="images\Heros\71.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\SSkill\Attribute7.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\Items\C114.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\MSkill\136.JPG" />
+    <EmbeddedResource Include="images\MSkill\137.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\Pet\59.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\Items\C152.JPG" />
+    <EmbeddedResource Include="images\Items\C153.JPG" />
+    <EmbeddedResource Include="images\Items\C154.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\Shop\17.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\Items\C119.JPG" />
+    <EmbeddedResource Include="images\Items\C120.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\Heros\72.JPG" />
+    <EmbeddedResource Include="images\Heros\73.JPG" />
+    <EmbeddedResource Include="images\Heros\74.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\Skill\s285.JPG" />
+    <EmbeddedResource Include="images\Skill\s286.JPG" />
+    <EmbeddedResource Include="images\Skill\s287.JPG" />
+    <EmbeddedResource Include="images\Skill\s288.JPG" />
+    <EmbeddedResource Include="images\Skill\s289.JPG" />
+    <EmbeddedResource Include="images\Skill\s290.JPG" />
+    <EmbeddedResource Include="images\Skill\s291.JPG" />
+    <EmbeddedResource Include="images\Skill\s292.JPG" />
+    <EmbeddedResource Include="images\Skill\s293.JPG" />
+    <EmbeddedResource Include="images\Skill\s294.JPG" />
+    <EmbeddedResource Include="images\Skill\s295.JPG" />
+    <EmbeddedResource Include="images\Skill\s296.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\Basic\talent2.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\Items\C121.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\Basic\spirit.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\Heros\75.JPG" />
+    <EmbeddedResource Include="images\Heros\76.JPG" />
+    <EmbeddedResource Include="images\Heros\77.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\Skill\s297.JPG" />
+    <EmbeddedResource Include="images\Skill\s298.JPG" />
+    <EmbeddedResource Include="images\Skill\s299.JPG" />
+    <EmbeddedResource Include="images\Skill\s300.JPG" />
+    <EmbeddedResource Include="images\Skill\s301.JPG" />
+    <EmbeddedResource Include="images\Skill\s302.JPG" />
+    <EmbeddedResource Include="images\Skill\s303.JPG" />
+    <EmbeddedResource Include="images\Skill\s304.JPG" />
+    <EmbeddedResource Include="images\Skill\s305.JPG" />
+    <EmbeddedResource Include="images\Skill\s306.JPG" />
+    <EmbeddedResource Include="images\Skill\s307.JPG" />
+    <EmbeddedResource Include="images\Skill\s308.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\HItems\I30.JPG" />
+    <EmbeddedResource Include="images\HItems\I31.JPG" />
+    <EmbeddedResource Include="images\HItems\I32.JPG" />
+    <EmbeddedResource Include="images\HItems\I33.JPG" />
+    <EmbeddedResource Include="images\HItems\I34.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\Items\C155.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\HItems\I35.JPG" />
+    <EmbeddedResource Include="images\HItems\I36.JPG" />
+    <EmbeddedResource Include="images\HItems\I37.JPG" />
+    <EmbeddedResource Include="images\HItems\I38.JPG" />
+    <EmbeddedResource Include="images\HItems\I39.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\Heros\78.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="images\Skill\s309.JPG" />
+    <EmbeddedResource Include="images\Skill\s310.JPG" />
+    <EmbeddedResource Include="images\Skill\s311.JPG" />
+    <EmbeddedResource Include="images\Skill\s312.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

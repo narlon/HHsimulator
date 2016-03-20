@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HHsimulator", "HHsimulator\HHsimulator.csproj", "{CE619E40-056D-4342-B0C6-DBEFB29623B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PicResource", "PicResource\PicResource.csproj", "{B63B4C14-46F6-4EFE-BA02-F503E4A3F365}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Deerchao.War3Share.W3gParser", "Replib\Deerchao.War3Share.W3gParser.csproj", "{833DC20C-6A27-49D0-9841-B861467BFA17}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE619E40-056D-4342-B0C6-DBEFB29623B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE619E40-056D-4342-B0C6-DBEFB29623B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE619E40-056D-4342-B0C6-DBEFB29623B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE619E40-056D-4342-B0C6-DBEFB29623B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B63B4C14-46F6-4EFE-BA02-F503E4A3F365}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B63B4C14-46F6-4EFE-BA02-F503E4A3F365}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B63B4C14-46F6-4EFE-BA02-F503E4A3F365}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B63B4C14-46F6-4EFE-BA02-F503E4A3F365}.Release|Any CPU.Build.0 = Release|Any CPU
+		{833DC20C-6A27-49D0-9841-B861467BFA17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{833DC20C-6A27-49D0-9841-B861467BFA17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{833DC20C-6A27-49D0-9841-B861467BFA17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{833DC20C-6A27-49D0-9841-B861467BFA17}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
